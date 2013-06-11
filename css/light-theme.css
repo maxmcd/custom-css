@@ -45,6 +45,12 @@ body {
   You can set the widget colouring by altering the above variables, edit here
   to adjust the widget structure
 */
+
+.clock-widget .time { 
+background-color:rgb(233, 233, 233); 
+}
+
+
 .widget {
   -webkit-box-shadow: #f0f0f0 0 0 8px;
   -moz-box-shadow: #f0f0f0 0 0 8px;
