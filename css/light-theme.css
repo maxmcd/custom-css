@@ -14,29 +14,29 @@ border:solid 1px #e5e5e5;
 background-color:#FFF;
 }
 
-.widget .widget-inner > header {
-background-color:#F5F5F5;
-}
+  .widget .widget-inner > header {
+	background-color:#F5F5F5;
+	}
 
-.widget .widget-inner > header h1 {
-color:#8b8b8b;
-text-shadow:1px 1px #FFF;
-}
+		.widget .widget-inner > header h1 {
+		color:#8b8b8b;
+		text-shadow:1px 1px #FFF;
+		}
 
-.widget .widget-inner > footer {
-color:#555;
-background-color:#F5F5F5;
-text-shadow:1px 1px #FFF;
-}
+			.widget .widget-inner > footer {
+			color:#555;
+			background-color:#F5F5F5;
+			text-shadow:1px 1px #FFF;
+			}
 
 .widget .widget-body {
 color:#666;
 text-shadow:1px 1px #FFF;
 }
 
-.widget .widget-body .t-secondary {
-color:#969696;
-}
+	.widget .widget-body .t-secondary {
+	color:#969696;
+	}
 
 .widget .widget-actions a:hover {
 background-color:#DCDCDC;
