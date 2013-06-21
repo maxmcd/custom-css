@@ -49,10 +49,6 @@ body {
 .clock-widget .time { 
 background-color:rgb(233, 233, 233); 
 }
-.text-widget .widget-canvas .slide-pagination {
-    background-color:rgb(233, 233, 233); 
-
-}
 
 
 .widget {
@@ -105,3 +101,11 @@ background-color:rgb(233, 233, 233);
   }
   
   
+.text-widget .widget-canvas .slide-pagination {
+    background-color:rgb(233, 233, 233); 
+
+  }
+
+.widget {
+    background-color: whitesmoke;
+  }
