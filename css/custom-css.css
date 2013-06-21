@@ -20,9 +20,8 @@
   There isn't much to the dashboard, it's just a place for widgets. You can
   change the background color and add a background image here though
 */
-
 body {
-  background: #101214; }
+  background: #f0f0f0; }
 
 /*
   ## Widget styles
@@ -47,29 +46,34 @@ body {
   to adjust the widget structure
 */
 
+.clock-widget .time { 
+background-color:rgb(233, 233, 233); 
+}
 
-.widget .widget-inner {
-  background-color: #2a2a2a; }
-  .widget .widget-inner > header {
-    background-color: #272727; }
-    .widget .widget-inner > header h1 {
-      color: #8b8b8b; }
-  .widget .widget-inner > footer {
-    color: #555555;
-    background-color: #1f1f1f; }
-.widget .widget-body {
-  color: #d3d4d4;
-  text-shadow: 1px 1px #0e0e0e; }
-  .widget .widget-body .t-secondary {
-    color: #818181; }
-.widget .widget-actions a:hover {
-  background-color: #050505; }
 
-.map-widget path {
-  fill: #4a4a4a;
-  stroke: #4a4a4a; }
-.map-widget circle {
-  fill: #38cdff; }
+.widget {
+  -webkit-box-shadow: #f0f0f0 0 0 8px;
+  -moz-box-shadow: #f0f0f0 0 0 8px;
+  box-shadow: #f0f0f0 0 0 8px; }
+  .widget .widget-inner {
+    border: solid 1px #e5e5e5;
+    background-color: white; }
+    .widget .widget-inner > header {
+      background-color: whitesmoke; }
+      .widget .widget-inner > header h1 {
+        color: #8b8b8b;
+        text-shadow: 1px 1px white; }
+    .widget .widget-inner > footer {
+      color: #555555;
+      background-color: whitesmoke;
+      text-shadow: 1px 1px white; }
+  .widget .widget-body {
+    color: #666666;
+    text-shadow: 1px 1px white; }
+    .widget .widget-body .t-secondary {
+      color: #969696; }
+  .widget .widget-actions a:hover {
+    background-color: gainsboro; }
 
 /*
   You can target widgets that belong to a paricular service using the service
@@ -83,4 +87,21 @@ body {
   specific HTML class name. Selectors for each template type are stubbed out
   below.
 */
+/*
+  ## Map styles
+  Default styles for the map points and colouring of the countries
+*/
+.map-widget path {
+  fill: #e0e0e0;
+  stroke: #d5d5d5; 
+  }
 
+.map-widget circle {
+  fill: #b940ff; 
+  }
+  
+  
+.text-widget .widget-canvas .slide-pagination {
+    background-color:rgb(233, 233, 233); 
+
+}
